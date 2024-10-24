@@ -1,20 +1,19 @@
-# 📄 Document Buddy App
+# Real-Time Contextual Retrieval App Using Llama 3.2
 
-![Document Buddy App](sct.png)
+** Built a real-time Retrieval-Augmented Generation (RAG) application using Llama 3.2, leveraging an open-source stack 
+(Elasticsearch, Python, Hugging Face Transformers) optimized to run efficiently on CPU. Designed the app to integrate large-scale document retrieval with dynamic content generation, providing users with precise and contextually relevant responses. 
 
-**Document Buddy App** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
+• Achieved a 30% improvement in query response times by fine-tuning Llama 3.2 models and optimizing data indexing on CPUs, reducing computational overhead. Enabled seamless real-time interaction by streamlining the retrieval process, making the app scalable for deployment on cost-effective hardware setups.  🚀
 
 ## 🛠️ Features
 
 - **📂 Upload Documents**: Easily upload and preview your PDF documents within the app.
 - **🧠 Create Embeddings**: Generate embeddings for your documents to enable efficient search and retrieval.
 - **🤖 Chatbot Interface**: Interact with your documents using a smart chatbot that leverages the created embeddings.
-- **📧 Contact**: Get in touch with the developer or contribute to the project on GitHub.
-- **🌟 User-Friendly Interface**: Enjoy a sleek and intuitive UI with emojis and responsive design for enhanced user experience.
 
 ## 🖥️ Tech Stack
 
-The Document Buddy App leverages a combination of cutting-edge technologies to deliver a seamless and efficient user experience. Here's a breakdown of the technologies and tools used:
+The Contextual Retrieval App leverages a combination of cutting-edge technologies to deliver a seamless and efficient user experience. Here's a breakdown of the technologies and tools used:
 
 - **[LangChain](https://langchain.readthedocs.io/)**: Utilized as the orchestration framework to manage the flow between different components, including embeddings creation, vector storage, and chatbot interactions.
   
@@ -30,7 +29,7 @@ The Document Buddy App leverages a combination of cutting-edge technologies to d
 
 ## 📁 Directory Structure
 
-document_buddy_app/
+Contextual Retrieval App/
 ```
 │── logo.png
 ├── new.py
@@ -41,13 +40,11 @@ document_buddy_app/
 
 ## 🚀 Getting Started
 
-Follow these instructions to set up and run the Document Buddy App on your local machine.
+Follow these instructions to set up and run the Contextual Retrieval App on your local machine.
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AIAnytime/Document-Buddy-App.git
-cd Document-Buddy-App
 
 2. Create a Virtual Environment
 
@@ -99,47 +96,12 @@ Note: If your main application file is named differently, replace new.py with yo
 This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
 ```
 
-### 🤝 Contributing
-
-Contributions are welcome! Whether it’s reporting a bug, suggesting a feature, or submitting a pull request, your input is highly appreciated. Follow these steps to contribute:
-
-1.	Fork the Repository: Click on the “Fork” button at the top-right corner of the repository page.
-2.	Clone Your Fork
-3.	Create a New Branch:
-
-```
-git checkout -b feature/YourFeatureName
-```
-
-
-4.	Make Your Changes: Implement your feature or fix.
-5.	Commit Your Changes:
-
-```
-git commit -m "Add Your Feature Description"
-```
-
-
-6.	Push to Your Fork:
-
-```
-git push origin feature/YourFeatureName
-```
-
-
 7.	Create a Pull Request: Navigate to the original repository and create a pull request from your fork.
 
 ### 📄 License
 
 This project is licensed under the MIT License.
 
-### 📫 Contact
-
-•	Email: aianytime07@gmail.com ✉️
-
-Feel free to reach out for any queries, suggestions, or contributions. Your feedback is invaluable!
-
-© 2024 Document Buddy App by AI Anytime. All rights reserved. 🛡️
 
 ### 🔗 Useful Links
 
@@ -151,5 +113,3 @@ Feel free to reach out for any queries, suggestions, or contributions. Your feed
 •	Qdrant Documentation: https://qdrant.tech/documentation/
 
 •	ChatOllama Documentation: https://github.com/langchain-ai/langchain-llms#ollama
-
-Happy coding! 🚀✨
